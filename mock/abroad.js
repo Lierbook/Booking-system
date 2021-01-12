@@ -3,7 +3,7 @@ import Mock from 'mockjs'
 const data = {
   items: [{
     "id": 87,
-    
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "09:50",
     "arrival_time": "16:55",
@@ -14,7 +14,7 @@ const data = {
   },
   {
     "id": 88,
-    
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "KN5737 空客330(大)",
     "Departure_time": "05:25",
     "arrival_time": "09:35",
@@ -25,7 +25,7 @@ const data = {
   },
   {
     "id": 89,
-    
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "吉祥航空 HO1254",
     "Departure_time": "08:20",
     "arrival_time": "16:45",
@@ -36,7 +36,7 @@ const data = {
   },
   {
     "id": 90,
-
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "中国国航 CA8219",
     "Departure_time": "07:45",
     "arrival_time": "15:10",
@@ -47,7 +47,7 @@ const data = {
   },
   {
     "id": 91,
-   
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "海南航空 HU7254",
     "Departure_time": "14:05",
     "arrival_time": "22:30",
@@ -58,7 +58,7 @@ const data = {
   },
   {
     "id": 92,
-
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "09:50",
     "arrival_time": "19:55",
@@ -69,7 +69,7 @@ const data = {
   },
   {
     "id": 93,
-   
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "04:50",
     "arrival_time": "12:55",
@@ -80,7 +80,7 @@ const data = {
   },
   {
     "id": 94,
- 
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "06:50",
     "arrival_time": "12:55",
@@ -91,7 +91,7 @@ const data = {
   },
   {
     "id": 95,
-
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "09:50",
     "arrival_time": "19:25",
@@ -102,7 +102,7 @@ const data = {
   },
   {
     "id": 96,
-   
+    "img_url": "https://pic.c-ctrip.com/flight_intl/airline_logo/32/dl.png?v=2",
     "title": "Y87509 波音738(中)",
     "Departure_time": "09:00",
     "arrival_time": "18:05",
