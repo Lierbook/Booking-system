@@ -1,7 +1,7 @@
 import Mock from 'mockjs'
 
 const data = Mock.mock({
-  //造了30条数据
+  // 造了30条数据
   'items|30': [{
     id: '@id',
     title: '@sentence(10, 20)',

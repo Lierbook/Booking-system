@@ -6,22 +6,22 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-import { getList } from "@/api/table";
+import { mapGetters } from 'vuex'
+import { getList } from '@/api/table'
 
 export default {
-  name: "Dashboard",
+  name: 'Dashboard',
   computed: {
-    ...mapGetters(["name"])
+    ...mapGetters(['name'])
   },
-  methods:{
-    getlist(){
-      getList().then((response)=>{
-        console.log(response);
+  methods: {
+    getlist() {
+      getList().then((response) => {
+        console.log(response)
       })
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
