@@ -78,7 +78,8 @@ export const constantRoutes = [
   {
     path: '/order',
     component: Layout,
-    name: 'order',
+    redirect: '/order/table',
+    name: '订单详情',
     meta: {
       title: '订单详情',
       icon: 'nested'
@@ -86,9 +87,15 @@ export const constantRoutes = [
     children: [
       {
         path: 'index',
-        name: 'order',
+        name: '订单管理',
         component: () => import('@/views/order/index'),
         meta: { title: '订单管理', icon: 'eye' }
+      },
+      {
+        path: 'new',
+        name: '新增订单',
+        component: () => import('@/views/order/new'),
+        meta: { title: '新增订单', icon: 'link' }
       }
     ]
   },
