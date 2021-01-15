@@ -16,6 +16,11 @@
               首页
             </el-dropdown-item>
           </router-link>
+           <router-link to="/personalCenter/personalCenter">
+            <el-dropdown-item>
+              个人信息
+            </el-dropdown-item>
+          </router-link>
           <el-dropdown-item divided @click.native="logout">
             <span style="display:block;">退出</span>
           </el-dropdown-item>

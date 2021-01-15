@@ -8,13 +8,11 @@
           <span>个人信息</span>
         </div>
           <div class="name-role">
-          <span class="sender">Admin - {{dataForm.nickName}}</span>  
+          <span class="sender">admin - {{dataForm.nickName}}</span>  
         </div>
         <div class="registe-info">
           <span class="registe-info">
-            注册时间：
-            <li class="fa fa-clock-o"></li>
-             2020/1/12 9:40:33
+            注册时间： 2020/1/12 9:40:33
           </span>
         </div>
         <el-divider></el-divider>
